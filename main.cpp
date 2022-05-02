@@ -8,5 +8,6 @@ int main()
 	// cout << "hello World" << endl;
 
 	std::cout << "hello World" << std::endl;
-	return ();
+	std::cout << Ch << std::endl;
+	return (0);
 }
