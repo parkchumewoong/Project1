@@ -1,13 +1,23 @@
 #include <iostream>
-
+using namespace std;
 int main()
 {
-	char Ch = 'A';
+	int A = 10;
 
+	float B = 10.0f;
 
-	// cout << "hello World" << endl;
+	cout <<  A + 1 << std::endl;
+	cout << A - 1 << std::endl;
+	cout << A * 1 << std::endl;
+	cout << A / 1 << std::endl;
+	cout << A % 1 << std::endl;
 
-	std::cout << "hello World" << std::endl;
-	std::cout << Ch << std::endl;
+	cout <<  B + 1 << std::endl;
+	cout << B - 1 << std::endl;
+	cout << B * 1 << std::endl;
+	cout << B / 1 << std::endl;
+	
+
 	return (0);
+
 }
